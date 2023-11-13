@@ -18,22 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "59c691328f2a0acb",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "0287b792eff3aaf3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ]
       }
@@ -64,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#详解",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,14 +147,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3acc14901730526a",
+  "active": "e35ee7f2f85acb87",
   "lastOpenFiles": [
-    "Image/Pasted image 20231113143545.png",
-    "Android项目结构.md",
-    "Android系统架构.md",
-    "Android应用开发特色.md",
-    "[[NeatReader-1699857662691.png]].md",
     "阅读笔记.md",
+    "Android系统架构.md",
+    "Android项目结构.md",
+    "Android应用开发特色.md",
+    "Image/Pasted image 20231113143545.png",
+    "[[NeatReader-1699857662691.png]].md",
     "[].md"
   ]
 }

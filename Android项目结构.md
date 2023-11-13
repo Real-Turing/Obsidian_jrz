@@ -1,3 +1,4 @@
+[阅读笔记](./阅读笔记.md)
 ![NeatReader-1699864814669](Image/NeatReader-1699864814669.png)
 
 <center> Android模式下的项目结构 </center>
@@ -31,6 +32,45 @@
 ![NeatReader-1699864814669](Image/NeatReader-1699864814669.png)
 
 <center>app文件结构</center>
+## app目录下的结构
+1. `build`
+这个目录与外层的build目录类似，也包含了一些在编译时自动生成的文件，不过它里面的内容会更加复杂，我们不需要过多关心。
+2. `libs`
+如果项目中用到了第三方jar包，就需要把这些jar包都放在libs目录下，放在这个目录下的jar包会被自动添加到项目的构建路径中。
+3. `androidTest`
+此处是用来编写Android Test测试用例的，可以对项目进行一些自动化测试。
+4. `java`
+毫无疑问，`java`目录是放置我们所有java代码的地方（`kotlin`代码也会放在这里），展开该目录，可以看到系统自动生成的一个MainActivity文件。
+5. `res`
+这个目录包含了 项目使用到的所有图片、布局、字符串等资源。图片放在drawable目录下，布局文件放在layout目录下，字符串放在value目录下。
+6. `AndroidMainfest.xml`
+这是整个Android项目的配置文件，在程序中定义的四大组件都需要在这个文件里注册，另外还可以在这个文件里给应用程序添加权限声明。
+7. `test`
+此处是用来编写Unit Test测试用例的，是对项目进行自动化测试的另一种方式。
+8. `.gitignore`
+这个文件用于将app模块内指定的目录或文件排除在版本控制之外，作用和外层的`.gitignore`文件类似。
+9. `app.iml`
+IntelliJ IDEA项目自动生成的文件，我们不需要关心或者修改这个文件里的内容。
+10. `build.gradle`
+这是app模块的gradle构建脚本，这个文件中会指定很多项目构建相关的配置。
+11. `proguard-rules.pro`
+这个文件用于指定项目代码的混淆规则，当代码开发完成后打包成安装包文件，如果不希望代码被别人破解，通常会将代码进行混淆，从而让破解者难以阅读。
+
+## res目录下的结构
+
+![NeatReader-1699869848487.png](./Image/NeatReader-1699869848487.png)
+<center>res目录下的结构</center>
+- `drawable`开头的目录都是用来放图片的。
+- `mipmap`开头的目录都是用来放应用图标的。
+- `values`开头的目录都是放字符串、样式、颜色等配置的。
+- `layout`开头的目录都是用来放布局文件的。
+
+**res目录下的资源可以通过两种方式来调用**
+- 在代码中通过`R.string.app_name`可以获得字符串的引用
+- 在xml中通过`@string/app_name`可以获得该字符串的引用
+string部分可以根据引用的具体资源类型替换。
 
 
+## 详解`build.gradle`文件
 
+Android Studio是采用Gradle来构建项目的。Gradle是一个非常先进的项目构建工具，它采用了一种基于Groovy的领域特定语言（DSL）来进行项目设置，摒弃了传统基于XML的各种繁琐配置。
