@@ -11,4 +11,4 @@
 3. `build`
 这个目录主要包含了一些在编译时自动生成的文件。
 4. `gradle`
-这个目录下包含了gradle wrapper的配置文件，使用gradle wrapper的方式不需要提前把gradle下载好
+这个目录下包含了gradle wrapper的配置文件，使用gradle wrapper的方式不需要提前把gradle下载好，而是会自动根据本地的缓存情况决定是否需要联网下载gradle。Andoid Studio默认就是启用gradlewrapper方式的，如果需要更改成离线模式，可以点击Android Studio导航栏->File->Settings->Build,Execution,Deployment->Gradle，进行配置更改。
