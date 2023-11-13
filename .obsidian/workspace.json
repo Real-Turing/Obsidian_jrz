@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "39e75d8b6fcb00d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Android项目结构.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android项目结构.md",
+                "file": "Android系统架构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android项目结构.md",
+                "file": "Android系统架构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android项目结构.md"
+                "file": "Android系统架构.md"
               }
             }
           }
@@ -159,8 +146,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "39e75d8b6fcb00d4",
+  "active": "8764c152f85c7ffd",
   "lastOpenFiles": [
+    "Android项目结构.md",
+    "Image/Pasted image 20231113143545.png",
     "Android系统架构.md",
     "Android应用开发特色.md",
     "阅读笔记.md"
