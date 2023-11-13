@@ -11,10 +11,28 @@
             "id": "3acc14901730526a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Image/Pasted image 20231113143545.png"
+                "file": "Android项目结构.md",
+                "mode": "source",
+                "source": false
               }
+            }
+          },
+          {
+            "id": "59c691328f2a0acb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "0287b792eff3aaf3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image/Pasted image 20231113143545.png",
+                "file": "Android项目结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image/Pasted image 20231113143545.png",
+                "file": "Android项目结构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image/Pasted image 20231113143545.png"
+                "file": "Android项目结构.md"
               }
             }
           }
@@ -146,9 +164,9 @@
   },
   "active": "3acc14901730526a",
   "lastOpenFiles": [
+    "Image/Pasted image 20231113143545.png",
     "Android项目结构.md",
     "Android系统架构.md",
-    "Image/Pasted image 20231113143545.png",
     "Android应用开发特色.md",
     "[[NeatReader-1699857662691.png]].md",
     "阅读笔记.md",
