@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e45bcd68c6ec7e8a",
+        "id": "981734121d1c140d",
         "type": "tabs",
         "children": [
           {
-            "id": "8764c152f85c7ffd",
+            "id": "3acc14901730526a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,13 +146,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8764c152f85c7ffd",
+  "active": "3acc14901730526a",
   "lastOpenFiles": [
-    "[].md",
     "Android应用开发特色.md",
+    "[[NeatReader-1699857662691.png]].md",
     "Android项目结构.md",
+    "阅读笔记.md",
+    "[].md",
     "Android系统架构.md",
-    "Image/Pasted image 20231113143545.png",
-    "阅读笔记.md"
+    "Image/Pasted image 20231113143545.png"
   ]
 }
