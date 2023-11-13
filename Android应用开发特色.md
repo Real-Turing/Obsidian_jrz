@@ -1,4 +1,5 @@
-[[阅读笔记]]
+[阅读笔记](./阅读笔记.md)
+
 1. 四大组件
 
    Android系统四大组件分别是Activity、Service、BroadcastReceiver和ContentProvider。其中Activity是所有Android应用程序的门面，凡是在应用中看得到的东西，都是放在Activity中的。Service在后台运行，即使用户退出了应用，Service仍然可以继续运行。BroadcastReceiver允许应用接收来自各处的广播小心，比如电话、短信等。应用也可以向外发出广播消息。ContentProvider为应用程序之间共享数据提供了可能，比如读取系统通讯录中的联系人，就可以通过ContentProvider来实现。
